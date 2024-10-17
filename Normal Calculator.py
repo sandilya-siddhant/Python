@@ -14,9 +14,8 @@ def calculator(num1, num2, operation):
     else:
         return "Invalid operation!"
 
-# Example usage
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
 operation = input("Enter the operation (add, subtract, multiply, divide): ").lower()
 
 result = calculator(num1, num2, operation)
